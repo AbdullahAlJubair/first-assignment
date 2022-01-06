@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+}
+/*Top Banner*/
+.container {
+    display: flex;
+    padding: 20px 120px;
+}
+.text-box {
+    width: 55%;
+    padding-top: 70px;
+}
+.img-box {
+    width: 45%;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.img-box img {
+    width: 80%;
+}
+.text-head {
+    border-left: 4px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+.text-head h1 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.color-text {
+    color: tomato;
+}
+.details-text p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #3E3E3E;
+    margin: 30px 0;
+}
+.details-text a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/*Mission*/
+
+.mission {
+    padding: 20px 120px;
+}
+.mission-head h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: #13103A;
+}
+.card-box {
+    display: flex;
+}
+#mission {
+    background-color: #edf5f6;
+}
+#vision {
+    background-color: #ffeeee;
+}
+#goals {
+ background-color: #fff4d6;
+}
+.card {
+    width: 30%;
+    height: auto;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.card-img {
+    width: 45%;
+}
+.card-img img {
+    width: 100%;
+}
+.card-title h3 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.card-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #424242;
+}
+
+/*Develop*/
+
+.develop {
+    padding: 80px 120px 80px 50px;
+}
+.content-box {
+    display: flex;
+    padding-left: 10px;
+    
+}
+.develop-img {
+    width: 40%;
+    text-align: right;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left center;
+}
+.develop-img img {
+    width: 82%;
+}
+.develop .text-content {
+    width: 60%;
+    margin-left: 55px;
+}
+.text-content h1 {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333333;
+}
+
+/*Community*/
+
+.community {
+    padding: 80px 50px 20px 120px;
+}
+.content-box {
+    display: flex;
+    padding-left: 10px;
+    
+}
+.community-img {
+    width: 40%;
+    height: 400px;
+    text-align: left;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: bottom right;
+}
+.community-img img {
+    width: 82%;
+}
+.community .text-content {
+    width: 60%;
+    margin-right: 55px;
+}
+
+/*Skill*/
+
+.skill {
+    padding: 50px 120px;
+}
+.skill-fullBox {
+    display: flex;
+}
+.skill-content {
+    width: 50%;
+    margin-top: 40px;
+}
+.skill-content h2 {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #13103A;
+    margin: 30px 0;
+}
+.skill-details {
+    width: 50%;
+    padding: 20px 20px 20px 80px;
+}
+.skill-box {
+    margin: 20px 10px;
+}
+.skill-progress {
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 1px 1px 3px 0px #bebebe, 0px 1px 0px #d4d4d4;
+}
+.skill-header {
+    display: flex;
+}
+.skill-title {
+    width: 50%;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #333333;
+}
+.skill-percent {
+    width: 50%;
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #333333;
+}
+.box {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.skills {
+    text-align: right;
+    color: white;
+}
+#html {
+    width: 90%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #1c1ccc;
+}
+#css {
+    width: 70%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #ffa500;
+}
+#js {
+    width: 60%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #ff6347;
+}
+#react {
+    width: 30%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #ff1a09;
+}
+footer {
+    background: #0B0D17;
+    height: 100px;
+    padding: 10px;
+}
+.footer-text h3 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer p {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
